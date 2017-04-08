@@ -1,0 +1,12 @@
+#This program calculates the factorial of a given number
+
+def factorial(number):
+    '''This function calculates the factorial of a number'''
+    if number == 1 or number == 0:
+        return 1
+    else:
+        return number * factorial(number - 1)
+
+if __name__ == '__main__':
+    userInput = int(input('Enter the number to find its factorial: '))
+    print('Factorial of',userInput,'is:',factorial(userInput))

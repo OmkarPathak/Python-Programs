@@ -1,0 +1,4 @@
+1) Create a git repository and clone that in a directory  using 'git clone <url>'
+2) git status
+3) git commit -a -m 'Any msg'
+4) git push --set-upstream origin master
