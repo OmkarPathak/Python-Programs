@@ -1,3 +1,7 @@
+#This program illustrates the client-server model using multithreading.
+#Multiole clients can connect to server and each time a client connects a corresponding
+#thread is created for handling client requests
+
 import socket
 
 ClientSocket = socket.socket()
