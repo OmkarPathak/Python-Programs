@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program gives examples about various list operations
 
 #Syntax: list[start: end: step]

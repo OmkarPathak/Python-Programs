@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program checks whether the entered number is prime or not
 
 def checkPrime(number):

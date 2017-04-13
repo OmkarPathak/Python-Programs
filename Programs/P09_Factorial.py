@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program calculates the factorial of a given number
 
 def factorial(number):

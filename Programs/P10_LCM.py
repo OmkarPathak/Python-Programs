@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program calculates the LCM of the two numbers entered by the user
 
 def LCM(number1, number2):

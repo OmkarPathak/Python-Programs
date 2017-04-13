@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program checks for the character frequency in the given string
 
 def charFrequency(userInput):

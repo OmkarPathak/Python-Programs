@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program finds the favtorial of the specified numbers
 
 def factorial(number):
