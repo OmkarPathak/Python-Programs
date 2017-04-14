@@ -90,5 +90,6 @@ if __name__ == '__main__':
 
     print(myList.search(93))            # False
     print(myList.search(12))            # True
-
+    print(myList.getAllData())
+    myList.remove(12)
     print(myList.getAllData())
