@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This prpgram checks that the given number is greater than all those numbers in th list
 
 def checkGreater(number):

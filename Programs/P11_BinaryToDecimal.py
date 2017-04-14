@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program converts the given binary number to its decimal equivalent
 
 def binaryToDecimal(binary):

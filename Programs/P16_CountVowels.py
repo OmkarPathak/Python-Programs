@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program counts the vowels present in the user input
 
 def countVowels(sentence):

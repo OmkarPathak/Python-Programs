@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program checks for the palindrome
 
 def palindrome(string):

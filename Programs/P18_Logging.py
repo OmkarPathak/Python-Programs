@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program illustrates a logging example
 import logging
 

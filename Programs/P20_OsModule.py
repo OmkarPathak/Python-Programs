@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program illustrates the example for os module in short
 
 import os
