@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program is an example for sequential search
 
 def sequentialSearch(target, List):

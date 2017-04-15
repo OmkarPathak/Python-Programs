@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program illustrates an example of quick sort
 
 #  Quicksort works by selecting an element called a pivot and splitting

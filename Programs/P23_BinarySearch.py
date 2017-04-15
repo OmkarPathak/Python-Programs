@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This programs give an example of binary search algorithm
 
 def binarySearch(target, List):

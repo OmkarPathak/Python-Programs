@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program shows an example of bubble sort using Python
 
 #   Bubblesort is an elementary sorting algorithm. The idea is to

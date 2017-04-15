@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program gives an example of Merge sort
 
 #   Merge sort is a divide and conquer algorithm. In the divide and

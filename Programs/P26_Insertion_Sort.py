@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program shows an example of insertion sort using Python
 
 #  Insertion sort is good for collections that are very small
