@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #In this example we will be seeing how instance Attributes are used
 #Instance attributes are accessed by: object.attribute
 #Attributes are looked First in the instance and THEN in the class

@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #This program shows the order in which the classes are accessed in case of multiple inheritance
 #Python uses DEPTH FIRST SEARCH algorithm for lookups
 

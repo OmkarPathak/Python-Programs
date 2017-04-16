@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #In this program we will see how to define a class
 
 class MyFirstClass():

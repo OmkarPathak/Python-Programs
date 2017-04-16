@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #In this assignment we would see the use of OOP
 
 class MaxSizeList(object):

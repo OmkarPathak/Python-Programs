@@ -1,3 +1,4 @@
+#Author: OMKAR PATHAK
 #In this example we will be seeing how instance methods are used
 #Instance methods are accessed by: instance.method()
 
