@@ -1,4 +1,4 @@
-#Author: OMKAR PATHAK
+#Author: OMKAR PATHAK 
 #In this example, we will see how to implement a simple reader Writer program using Python (Mutex)
 
 import threading as thread
