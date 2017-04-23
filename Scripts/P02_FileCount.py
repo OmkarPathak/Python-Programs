@@ -3,7 +3,7 @@
 
 import os
 
-# Path in which we have to count files and directories
+# Path IN which we have to count files and directories
 PATH = '/home/omkarpathak/Documents/GITs/Python-Programs/Scripts'   # Give your path here
 
 fileCount = 0
