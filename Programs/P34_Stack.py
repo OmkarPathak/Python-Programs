@@ -1,7 +1,7 @@
 #Author: OMKAR PATHAK
 
 #This program illustrates an example of Stack implementation
-#Stack Operations: push(), pop(), isEmpty(), top(), stackSize()
+#Stack Operations: push(), pop(), isEmpty(), peek(), stackSize()
 
 class Stack(object):
     def __init__(self, size):
@@ -28,7 +28,7 @@ class Stack(object):
         ''' Checks whether the stack if full '''
         return len(self.index) == self.size
 
-    def top(self):
+    def peek(self):
         ''' Returns the top element of the stack '''
         return self.index[-1]
 
@@ -40,9 +40,10 @@ if __name__ == '__main__':
     myStack = Stack(10)
     for i in range(0, 10):
         myStack.push(i)
-    print(myStack.isEmpty())        #False
-    print(myStack.isFull())         #True
-    print(myStack)                  #0 1 2 3 4 5 6 7 8 9
-    print(myStack.stackSize())      #10
-    print(myStack.pop())            #9
-    print(myStack)                  #0 1 2 3 4 5 6 7 8
+    print(myStack.isEmpty())        # False
+    print(myStack.isFull())         # True
+    print(myStack)                  # 0 1 2 3 4 5 6 7 8 9
+    print(myStack.stackSize())      # 10
+    print(myStack.pop())            # 9
+    print(myStack)                  # 0 1 2 3 4 5 6 7 8
+    print(myStack.peek())           # 8
