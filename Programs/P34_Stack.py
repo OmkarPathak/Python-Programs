@@ -14,7 +14,10 @@ class Stack(object):
 
     def push(self, data):
         ''' Pushes a element to top of the stack '''
-        self.index.append(data)
+        if(self.isFull() != True):
+            self.index.append(data)
+        else:
+            print('Stack overflow')
 
     def pop(self):
         ''' Pops the top element '''
