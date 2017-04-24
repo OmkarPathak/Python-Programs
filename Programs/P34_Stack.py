@@ -21,7 +21,10 @@ class Stack(object):
 
     def pop(self):
         ''' Pops the top element '''
-        return self.index.pop()
+        if(self.isEmpty() != True):
+            return self.index.pop()
+        else:
+            print('Stack is already empty!')
 
     def isEmpty(self):
         ''' Checks whether the stack is empty '''
@@ -33,7 +36,10 @@ class Stack(object):
 
     def peek(self):
         ''' Returns the top element of the stack '''
-        return self.index[-1]
+        if(self.isEmpty() != True):
+            return self.index[-1]
+        else:
+            print('Stack is already empty!')
 
     def stackSize(self):
         ''' Returns the current stack size '''
