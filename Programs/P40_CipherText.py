@@ -4,17 +4,8 @@
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 LETTERS = LETTERS.lower()
 
-def main():
-    message = str(input('Enter your message: '))
-    key = int(input('Enter you key [1 - 26]: '))
-    choice = input('Encrypt or Decrypt? [E/D]: ')
-
-    if choice.lower().startswith('e'):
-        print(encrypt(message, key))
-    else:
-        print(decrypt(message, key))
-
 def encrypt(message, key):
+    ''' This function lets you to encrypt your message based on a key '''
     encrypted = ''
     for chars in message:
         if chars in LETTERS:
@@ -27,6 +18,7 @@ def encrypt(message, key):
     return encrypted
 
 def decrypt(message, key):
+    ''' This function lets you to decrypt your message based on a key '''
     decrypted = ''
     for chars in message:
         if chars in LETTERS:
@@ -38,9 +30,20 @@ def decrypt(message, key):
 
     return decrypted
 
+def main():
+    message = str(input('Enter your message: '))
+    key = int(input('Enter you key [1 - 26]: '))
+    choice = input('Encrypt or Decrypt? [E/D]: ')
+
+    if choice.lower().startswith('e'):
+        print(encrypt(message, key))
+    else:
+        print(decrypt(message, key))
+
 if __name__ == '__main__':
     main()
 
+    # OUTPUT:
     # omkarpathak@omkarpathak-Inspiron-3542:~/Documents/GITs/Python-Programs/Programs$ python P40_CipherText.py
     # Enter your message: omkar
     # Enter you key [1 - 26]: 2
