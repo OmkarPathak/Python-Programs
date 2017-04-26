@@ -7,6 +7,7 @@ import os
 PATH = '/home/omkarpathak/Documents/GITs/Python-Programs/Scripts'   # Give your path here
 
 def searchFile(fileName):
+    ''' This function searches for the specified file name in the given PATH '''
     for root, dirs, files in os.walk(PATH):
         print('Looking in:',root)
         for Files in files:
