@@ -8,4 +8,4 @@ Pune, Maharashtra, India.<br />
 
 ## Sorting Algorithms
 
-1. [Selection Sort](https://github.com/OmkarPathak/Python-Programs/Programs/P24_SelectionSort.py) 
+1. [Selection Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P24_SelectionSort.py) 
