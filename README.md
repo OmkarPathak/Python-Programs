@@ -14,10 +14,27 @@ Pune, Maharashtra, India.<br />
 4. [Merge Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P27_MergeSort.py)
 5. [Quick Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P28_QuickSort.py)
 
+## Searching Algorithms
+
+1. [Sequential Serach](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P22_SequentialSearch.py)
+2. [Binary Search](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P23_BinarySearch.py)
+3. [N-ary Search](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P35_NarySearch.py)
+
 ## Data Structures
 
-1. [Array](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P30_Array.py) Python implementation of Array DS
-2. [Singly Linked List](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P31_SinglyLinkedList.py) Python implementation of Singly Linked List
-3. [Doubly Linked List](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P33_DoublyLinkedList.py) Python implementation of Doubly Linked List
-4. [Stack](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P34_Stack.py) Python implementation of Stack DS
-5. [Queue](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P39_Queue.py) Python implementation of Queue DS
+1. [Array](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P30_Array.py)
+2. [Singly Linked List](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P31_SinglyLinkedList.py)
+3. [Doubly Linked List](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P33_DoublyLinkedList.py)
+4. [Stack](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P34_Stack.py)
+5. [Queue](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P39_Queue.py)
+
+## Simple Games in Python
+
+1. [Number Guessing Game](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P21_GuessTheNumber.py)
+2. [Hnagman](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P37_Hangman.py)
+
+
+## OOP
+
+1. [Class Definition](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P01_ClassDefinition.py)
+2. [Instance Methods](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P02_InstanceMethods.py)
