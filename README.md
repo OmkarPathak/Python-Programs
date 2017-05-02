@@ -43,3 +43,6 @@ Pune, Maharashtra, India.<br />
 5. [Inheritance](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P06_Inheritance.py)
 6. [Multiple Inheritance](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P08_MultipleInheritance.py)
 7. [Private Variables](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P10_PrivateVariable.py)
+
+## Trees
+1. [Binary Search Tree](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P43_BinarySearchTree.py)
