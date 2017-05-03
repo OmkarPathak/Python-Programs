@@ -28,10 +28,26 @@ class Node(object):
                 self.rightChild = Node(data)
                 return True
 
+
+    def find(self, data):
+        ''' This function checks whether the specified data is in tree or not '''
+        if(data == self.data):
+            return True
+        elif(data < self.data):
+            if self.leftChild:
+                return self.leftChild.find(data)
+            else:
+                return False
+        else:
+            if self.rightChild:
+                return self.rightChild.find(data)
+            else:
+                return False
+
     def preorder(self):
         '''For preorder traversal of the BST '''
         if self:
-            print(str(self.data))
+            print(str(self.data), end = ' ')
             if self.leftChild:
                 self.leftChild.preorder()
             if self.rightChild:
@@ -42,7 +58,7 @@ class Node(object):
         if self:
             if self.leftChild:
                 self.leftChild.inorder()
-            print(str(self.data))
+            print(str(self.data), end = ' ')
             if self.rightChild:
                 self.rightChild.inorder()
 
@@ -53,7 +69,7 @@ class Node(object):
                 self.leftChild.postorder()
             if self.rightChild:
                 self.rightChild.postorder()
-            print(str(self.data))
+            print(str(self.data), end = ' ')
 
 class Tree(object):
     def __init__(self):
@@ -66,17 +82,26 @@ class Tree(object):
             self.root = Node(data)
             return True
 
+    def find(self, data):
+        if self.root:
+            return self.root.find(data)
+        else:
+            return False
+
     def preorder(self):
         if self.root is not None:
+            print()
             print('Preorder: ')
             self.root.preorder()
 
     def inorder(self):
+        print()
         if self.root is not None:
             print('Inorder: ')
             self.root.inorder()
 
     def postorder(self):
+        print()
         if self.root is not None:
             print('Postorder: ')
             self.root.postorder()
@@ -92,6 +117,8 @@ if __name__ == '__main__':
     tree.insert(7)
     tree.insert(15)
     tree.insert(13)
+    print(tree.find(1))
+    print(tree.find(12))
     tree.preorder()
     tree.inorder()
     tree.postorder()
