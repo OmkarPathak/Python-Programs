@@ -50,6 +50,6 @@ Pune, Maharashtra, India.<br />
 ## Scripts
 1. [Create Multiple Folders](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P01_FolderManipulation.py)
 2. [Count files](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P02_FileCount.py)
-3. [get File sizes](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P03_GetFileSize.py)
-4. [Find if a file exists](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P04_FindIfAFielExists.py)
+3. [Get File sizes](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P03_GetFileSize.py)
+4. [Find if a file exists](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P04_FindIfAFileExists.py)
 5. [Folder organization](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P05_FileOrganizer.py)
