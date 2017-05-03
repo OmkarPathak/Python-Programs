@@ -18,4 +18,4 @@ def outerFunction(text):
 
 if __name__ == '__main__':
     myFunction = outerFunction('Hey!')
-    myFunction()]
+    myFunction()
