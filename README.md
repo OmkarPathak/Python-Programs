@@ -53,3 +53,9 @@ Pune, Maharashtra, India.<br />
 3. [Get File sizes](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P03_GetFileSize.py)
 4. [Find if a file exists](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P04_FindIfAFileExists.py)
 5. [Folder organization](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P05_FileOrganizer.py)
+
+## Python Concepts
+1. [Variable Scope](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/p02_VariableScope.py)
+2. [List Methods](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P03_ListsOperations.py)
+3. [Closures](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P44_Closures.py)
+4. [More on Closures](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P45_MoreOnClosures.py)
