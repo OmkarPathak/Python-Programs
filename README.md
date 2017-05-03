@@ -55,7 +55,7 @@ Pune, Maharashtra, India.<br />
 5. [Folder organization](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P05_FileOrganizer.py)
 
 ## Python Concepts
-1. [Variable Scope](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/p02_VariableScope.py)
+1. [Variable Scope](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P02_VariableScope.py)
 2. [List Methods](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P03_ListsOperations.py)
 3. [Closures](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P44_Closures.py)
 4. [More on Closures](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P45_MoreOnClosures.py)
