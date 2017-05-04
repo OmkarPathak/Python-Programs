@@ -59,3 +59,5 @@ Pune, Maharashtra, India.<br />
 2. [List Methods](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P03_ListsOperations.py)
 3. [Closures](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P44_Closures.py)
 4. [More on Closures](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P45_MoreOnClosures.py)
+5. [Decorators](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P46_Decorators.py)
+6. [More on Decorators](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P47_MoreOnDecorators.py)
