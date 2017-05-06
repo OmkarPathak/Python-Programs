@@ -56,6 +56,7 @@ Pune, Maharashtra, India.<br />
 3. [Get File sizes](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P03_GetFileSize.py)
 4. [Find if a file exists](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P04_FindIfAFileExists.py)
 5. [Folder organization](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P05_FileOrganizer.py)
+6. [Get Dictionary Meaning](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P06_GetMeaning.py)
 
 ## Python Concepts
 
