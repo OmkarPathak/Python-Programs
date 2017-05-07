@@ -7,7 +7,7 @@ class Data(object):
     def getData(self):
         print('In data!')
 
-class Time(Data):           #Inhertiting from Data class
+class Time(Data):           #Inheriting from Data class
     def getTime(self):
         print('In Time!')
 
