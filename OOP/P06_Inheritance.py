@@ -17,4 +17,4 @@ if __name__ == '__main__':
 
     data.getData()
     time.getTime()
-    time.getData()          #Inherted Data method
+    time.getData()          #Inherited Data method
