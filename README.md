@@ -75,4 +75,18 @@ Pune, Maharashtra, India.<br />
 2. [Logging](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P18_Logging.py)
 3. [JSON Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P51_PythonJSON.py)
 4. [Argument Parser](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P29_ArgumentParser.py)
-5. [Hashing](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P38_HashingFile.py)
+5. [Hashing](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P38_HashingFile.py) Finding a Hash of a file.
+6. [Cipher Text](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P40_CipherText.py)
+Encrypting and decrypting a message based on some key specified by the user.
+7. [Factorial](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P04_Factorial.py)
+Finding the factorial of a number using recursion.
+8. [Fibonacci](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P08_Fibonnaci.py)
+Finding the fibonaaci series upto a certain number using recursion.
+9. [Count Characters](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P06_CharCount.py)
+Count the number(frequency) of Characters in a given sentence or string.
+10. [Pattern](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P05_Pattern.py)
+Implementation of various Patterns using Python.
+11. [LCM](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P10_LCM.py)
+Finding the LCM using Python.
+12. [Palindrome](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P13_Palindrome.py)
+Check whether the given string is palindrome or not.
