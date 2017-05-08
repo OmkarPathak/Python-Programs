@@ -69,10 +69,10 @@ Pune, Maharashtra, India.<br />
 6. [More on Decorators](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P47_MoreOnDecorators.py)
 7. [List Comprehensions](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P50_ListComprehensions.py)
 
-## Python Modules
+## Random Python Programs
 
 1. [OS Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P20_OsModule.py)
 2. [Logging](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P18_Logging.py)
-3. [JSON Module]()
-4. [Argument Parser]()
-5. [Hashing]()
+3. [JSON Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P51_PythonJSON.py)
+4. [Argument Parser](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P29_ArgumentParser.py)
+5. [Hashing](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P38_HashingFile.py)
