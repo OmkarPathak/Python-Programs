@@ -14,7 +14,7 @@ Pune, Maharashtra, India.<br />
 4. [Merge Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P27_MergeSort.py)
 5. [Quick Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P28_QuickSort.py)
 6. [Counting Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P48_CountingSort.py)
-
+7. [Bucket Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P52_BucketSort.py)
 ## Searching Algorithms
 
 1. [Sequential Search](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P22_SequentialSearch.py)
