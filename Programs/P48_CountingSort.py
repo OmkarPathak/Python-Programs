@@ -12,10 +12,6 @@
 #  creates a bucket for each value, an imposing restriction is
 #  that the maximum value in the input array be known beforehand.
 
-#  Best Case O(n+k); Average Case O(n+k); Worst Case O(n+k),
-#  where n is the size of the input array and k means the
-#  values range from 0 to k.
-
 #  Implementation notes:
 #  1] Since the values range from 0 to k, create k+1 buckets.
 #  2] To fill the buckets, iterate through the input list and
@@ -27,6 +23,10 @@
 #  add the index of the bucket to the input array and
 #  decrease the counter in said bucket by one; until the
 #  counter is zero.
+
+#  Best Case O(n+k); Average Case O(n+k); Worst Case O(n+k),
+#  where n is the size of the input array and k means the
+#  values range from 0 to k.
 
 def countingSort(myList):
     maxValue = 0
