@@ -18,12 +18,12 @@ def is_isogram(word):
     return True
 
 if __name__ == '__main__':
-    print(is_isogram(""))
-    print(is_isogram("isogram"))
-    print(is_isogram("eleven"))
-    print(is_isogram("subdermatoglyphic"))
-    print(is_isogram("Alphabet"))
-    print(is_isogram("thumbscrew-japingly"))
-    print(is_isogram("Hjelmqvist-Gryb-Zock-Pfund-Wax"))
-    print(is_isogram("Emily Jung Schwartzkopf"))
-    print(is_isogram("accentor"))
+    print(is_isogram(""))                                   # True
+    print(is_isogram("isogram"))                            # True
+    print(is_isogram("eleven"))                             # False
+    print(is_isogram("subdermatoglyphic"))                  # True
+    print(is_isogram("Alphabet"))                           # False
+    print(is_isogram("thumbscrew-japingly"))                # True
+    print(is_isogram("Hjelmqvist-Gryb-Zock-Pfund-Wax"))     # True
+    print(is_isogram("Emily Jung Schwartzkopf"))            # True
+    print(is_isogram("accentor"))                           # False
