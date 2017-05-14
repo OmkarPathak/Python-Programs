@@ -95,3 +95,4 @@ Finding the LCM using Python.
 Check whether the given string is palindrome or not.
 14. [Isogram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P55_Isogram.py)
 15. [Pangram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P56_Pangram.py)
+16. [Anagram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P57_Anagram.py)
