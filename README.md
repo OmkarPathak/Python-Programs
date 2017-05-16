@@ -98,3 +98,5 @@ Check whether the given string is palindrome or not.
 16. [Anagram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P57_Anagram.py)
 17. [Perfect Number](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P58_PerfectNumber.py)
 Check if the given number is a perfect number
+18. [Pascal  Triangle](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P59_PascalTriangle.py)
+Implementation of Pascal Triangle
