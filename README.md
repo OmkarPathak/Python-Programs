@@ -44,7 +44,7 @@ Pune, Maharashtra, India.<br />
 3. [Instance Attributes](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P03_InstanceAttributes.py)
 4. [Constructor (__init__)](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P04_InitConstructor.py)
 5. [Inheritance](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P06_Inheritance.py)
-6. [Multiple Inheritance](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P08_MultipleInheritance.py)
+6. [Multiple Inheritance](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P08_MultipleInheritence.py)
 7. [Private Variables](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P10_PrivateVariable.py)
 8. [Magic Methods](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P11_MagicMethods.py)
 
