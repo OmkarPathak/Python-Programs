@@ -94,8 +94,11 @@ Finding the LCM using Python.
 13. [Palindrome](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P13_Palindrome.py)
 Check whether the given string is palindrome or not.
 14. [Isogram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P55_Isogram.py)
+Word or Phrase without a repeating letter
 15. [Pangram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P56_Pangram.py)
+A sentence containing every letter of the alphabet
 16. [Anagram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P57_Anagram.py)
+Rearranging of words or phrase to produce a new word or phrase, using all the original letters exactly once
 17. [Perfect Number](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P58_PerfectNumber.py)
 Check if the given number is a perfect number
 18. [Pascal  Triangle](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P59_PascalTriangle.py)
