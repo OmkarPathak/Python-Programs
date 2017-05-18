@@ -74,33 +74,34 @@ Pune, Maharashtra, India.<br />
 
 ## Random Python Programs
 
-1. [OS Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P20_OsModule.py)
-2. [Logging](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P18_Logging.py)
-3. [JSON Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P51_PythonJSON.py)
-4. [Argument Parser](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P29_ArgumentParser.py)
-5. [CSV Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P54_PythonCSV.py)
-6. [Hashing](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P38_HashingFile.py) Finding a Hash of a file.
-7. [Cipher Text](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P40_CipherText.py)
+* [OS Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P20_OsModule.py)
+* [Logging](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P18_Logging.py)
+* [JSON Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P51_PythonJSON.py)
+* [Argument Parser](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P29_ArgumentParser.py)
+* [CSV Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P54_PythonCSV.py)
+* [Pickle Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P60_PickleModule.py)
+* [Hashing](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P38_HashingFile.py) Finding a Hash of a file.
+* [Cipher Text](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P40_CipherText.py)
 Encrypting and decrypting a message based on some key specified by the user.
-8. [Factorial](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P04_Factorial.py)
+* [Factorial](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P04_Factorial.py)
 Finding the factorial of a number using recursion.
-9. [Fibonacci](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P08_Fibonnaci.py)
+* [Fibonacci](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P08_Fibonnaci.py)
 Finding the fibonaaci series upto a certain number using recursion.
-10. [Count Characters](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P06_CharCount.py)
+* [Count Characters](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P06_CharCount.py)
 Count the number(frequency) of Characters in a given sentence or string.
-11. [Pattern](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P05_Pattern.py)
+* [Pattern](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P05_Pattern.py)
 Implementation of various Patterns using Python.
-12. [LCM](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P10_LCM.py)
+* [LCM](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P10_LCM.py)
 Finding the LCM using Python.
-13. [Palindrome](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P13_Palindrome.py)
+* [Palindrome](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P13_Palindrome.py)
 Check whether the given string is palindrome or not.
-14. [Isogram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P55_Isogram.py)
+* [Isogram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P55_Isogram.py)
 Word or Phrase without a repeating letter
-15. [Pangram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P56_Pangram.py)
+* [Pangram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P56_Pangram.py)
 A sentence containing every letter of the alphabet
-16. [Anagram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P57_Anagram.py)
+* [Anagram](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P57_Anagram.py)
 Rearranging of words or phrase to produce a new word or phrase, using all the original letters exactly once
-17. [Perfect Number](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P58_PerfectNumber.py)
+* [Perfect Number](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P58_PerfectNumber.py)
 Check if the given number is a perfect number
-18. [Pascal  Triangle](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P59_PascalTriangle.py)
+* [Pascal  Triangle](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P59_PascalTriangle.py)
 Implementation of Pascal Triangle
