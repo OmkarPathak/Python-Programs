@@ -61,7 +61,7 @@ Pune, Maharashtra, India.<br />
 5. [Folder organization](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P05_FileOrganizer.py)
 6. [Get Dictionary Meaning](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P06_GetMeaning.py)
 7. [Sending Mail](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P07_ScriptToSendMail.py)
-
+8. [Counting Number of Words](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P08_CountNumberOfWords.py)
 ## Python Concepts
 
 1. [Variable Scope](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P02_VariableScope.py)
