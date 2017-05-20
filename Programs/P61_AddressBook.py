@@ -3,14 +3,9 @@
 # In this small mini project we will be creating a simple address book application that will store, search and
 # delete records
 
-# TODO: seach,  modify function
-
 import pickle, os
 
 class AddressBook(object):
-    # myFile = open('addressbook', 'wb')
-    # pickle.dump(source, destination)
-    # pickle.load(source)
     def __init__(self, name = None, address = None, email = None, phone = None):
         self.name = name
         self.address = address
@@ -41,9 +36,8 @@ class AddressBook(object):
             myAddressBook = open(self.filename, 'wb')
             pickle.dump(data, myAddressBook)
             myAddressBook.close()
-
-        except EOFError as e:
-            # print(e)
+            print('Contact Added Successfully!')
+        except:
             print('There was an error! Contact was not added.')
         finally:
             myAddressBook.close()
@@ -72,7 +66,7 @@ class AddressBook(object):
         else:
             print('No Record in database.')
 
-    # To serach for a specific contact in our Address Book
+    # To search for a specific contact in our Address Book
     def searchContacts(self):
         if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
             myAddressBook = open(self.filename, 'rb')
@@ -87,11 +81,12 @@ class AddressBook(object):
                         counter += 1
                 if counter == 0:
                     print('No record found whose name is:', contactToSearch)
-            except EOFError as e:
+            except:
                 print('Error occured!')
         else:
             print('No Record in database.')
 
+    # For modifying contacts
     def modifyContacts(self):
         if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
             myAddressBook = open(self.filename, 'rb')
@@ -104,15 +99,31 @@ class AddressBook(object):
                     if contactToModify == contact['Name']:
                         contact = data[contactToModify]
                         break
-                option = int(input('1. To modify name, 2. To modify address, 3. To modify email, 4. To modify email: '))
+                option = int(input('1. To modify name, 2. To modify address, 3. To modify email, 4. To modify phone: '))
                 if option == 1:
                     contact['Name'] = input('Enter Name to modify: ')
                     del data[contactToModify]
                     data[contact['Name']] = contact
+                    print('Successful')
+                elif option == 2:
+                     contact['Address'] = input('Enter Address to modify: ')
+                     del data[contactToModify]
+                     data[contactToModify] = contact
+                     print('Successful')
+                elif option == 3:
+                    contact['Email'] = input('Enter Email to modify: ')
+                    del data[contactToModify]
+                    data[contactToModify] = contact
+                    print('Successful')
+                elif option == 4:
+                    contact['Phone'] = input('Enter Phone to modify: ')
+                    del data[contactToModify]
+                    data[contactToModify] = contact
+                    print('Successful')
                 else:
                     print('Incorrect option selected.')
-            except EOFError as e:
-                print(e)
+            except:
+                print('Error occured. No such record found. Try Again!')
             finally:
                 myAddressBook = open(self.filename, 'wb')
                 pickle.dump(data, myAddressBook)
@@ -122,7 +133,18 @@ class AddressBook(object):
 
 if __name__ == '__main__':
     myBook = AddressBook()
-    # myBook.addContacts()
-    myBook.displayContacts()
-    myBook.searchContacts()
-    # myBook.modifyContacts()
+    print('Enter 1. To Add Contacts 2. For Searching a Contact 3. For Modifying a Contact 4. To Display Contacts 5. To Exit')
+    while True:
+        choice = int(input('Enter your choice: '))
+        if choice == 1:
+            myBook.addContacts()
+        elif choice == 2:
+            myBook.searchContacts()
+        elif choice == 3:
+            myBook.modifyContacts()
+        elif choice == 4:
+            myBook.displayContacts()
+        elif choice == 5:
+            exit()
+        else:
+            print('Invalid Option. Try Again!')
