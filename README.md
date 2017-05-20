@@ -62,6 +62,7 @@ Pune, Maharashtra, India.<br />
 6. [Get Dictionary Meaning](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P06_GetMeaning.py)
 7. [Sending Mail](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P07_ScriptToSendMail.py)
 8. [Counting Number of Words](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P08_CountNumberOfWords.py)
+
 ## Python Concepts
 
 1. [Variable Scope](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P02_VariableScope.py)
@@ -71,6 +72,10 @@ Pune, Maharashtra, India.<br />
 5. [Decorators](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P46_Decorators.py)
 6. [More on Decorators](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P47_MoreOnDecorators.py)
 7. [List Comprehensions](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P50_ListComprehensions.py)
+
+## Mini Projects
+* [Address Book](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P61_AddressBook,py)
+With Add, Modify, Search.
 
 ## Random Python Programs
 
