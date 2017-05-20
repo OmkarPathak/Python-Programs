@@ -74,7 +74,7 @@ Pune, Maharashtra, India.<br />
 7. [List Comprehensions](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P50_ListComprehensions.py)
 
 ## Mini Projects
-* [Address Book](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P61_AddressBook,py)
+* [Address Book](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P61_AddressBook.py)
 With Add, Modify, Search.
 
 ## Random Python Programs
