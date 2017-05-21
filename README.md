@@ -50,7 +50,8 @@ Pune, Maharashtra, India.<br />
 
 ## Trees
 
-1. [Binary Search Tree](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P43_BinarySearchTree.py)
+1. [Simple Binary Tree](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P62_BinaryTree.py)
+2. [Binary Search Tree](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P43_BinarySearchTree.py)
 
 ## Scripts
 
