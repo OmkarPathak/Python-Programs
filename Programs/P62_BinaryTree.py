@@ -53,3 +53,9 @@ def testTree():
 
 if __name__ == '__main__':
     testTree()
+
+    # OUTPUT
+    # 2
+    # 1
+    # 4
+    # 3
