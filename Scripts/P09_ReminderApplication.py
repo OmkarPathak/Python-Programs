@@ -3,7 +3,7 @@
 # Author: OMKAR PATHAK
 
 # This application was developed as I cannot remember for birthdays efficiently.
-# This app helps me remine birthdays and notifies me on their birthdays.
+# This app helps me remind birthdays and notifies me on their birthdays.
 
 # To store birthdays ceate a file 'reminder.data' and store birthdays in this format:
 # MonthDay Name Surname
