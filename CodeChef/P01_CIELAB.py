@@ -27,8 +27,6 @@
 
 # MY SOLUTION:
 
-import random
-
 ## This solution gives error in codechef as this consumes more memory
 
 # A, B = input().split()
