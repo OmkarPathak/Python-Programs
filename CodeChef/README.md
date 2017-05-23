@@ -1,4 +1,4 @@
-# Python-Programs
+# CodeChef Problem Statements
 This is my collection of Python Programs that I have solved on CodeChef.<br />
 
 Omkar Pathak,<br />
