@@ -52,6 +52,8 @@ Pune, Maharashtra, India.<br />
 
 1. [Simple Binary Tree](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P62_BinaryTree.py)
 2. [Binary Search Tree](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P43_BinarySearchTree.py)
+3. [Depth First Traversal](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P64_DepthFirstTraversal.py)
+4. [Breadth First Traversal](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P65_BreadthFirstTraversal.py)
 
 ## Graphs
 1. [Graph](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P63_Graph.py)
