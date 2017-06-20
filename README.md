@@ -26,10 +26,14 @@ Pune, Maharashtra, India.<br />
 ## Data Structures
 
 1. [Array](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P30_Array.py)
+    * [More on Arrays..](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Arrays)
 2. [Singly Linked List](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P31_SinglyLinkedList.py)
 3. [Doubly Linked List](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P33_DoublyLinkedList.py)
+    * [More on Linked Lists..](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Linked%20Lists)
 4. [Stack](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P34_Stack.py)
+    * [More on Stacks..](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Stack)
 5. [Queue](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P39_Queue.py)
+    * [More on Queues..](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Queue)
 
 ## Simple Games in Python
 
@@ -54,6 +58,9 @@ Pune, Maharashtra, India.<br />
 2. [Binary Search Tree](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P43_BinarySearchTree.py)
 3. [Depth First Traversal](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P64_DepthFirstTraversal.py)
 4. [Breadth First Traversal](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P65_BreadthFirstTraversal.py)
+5. [Count Leaf Nodes](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Trees/P02_CountLeafNodes.py)
+6. [Building Tree from Preorder and Inorder](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Trees/P03_TreeFromInorderAndPreorder.py)
+7. [Print all the paths to leaf nodes](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Trees/P04_RootToLeafPaths.py)
 
 ## Graphs
 1. [Graph](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P63_Graph.py)
@@ -69,6 +76,7 @@ Pune, Maharashtra, India.<br />
 7. [Sending Mail](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P07_ScriptToSendMail.py)
 8. [Counting Number of Words](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P08_CountNumberOfWords.py)
 9. [Birthday Reminder](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P09_ReminderApplication.py)
+10. [Script to download tutorial from tutorials point](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P10_SciptToDownloadPDF.py)
 
 ## Python Concepts
 
