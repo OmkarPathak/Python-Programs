@@ -16,6 +16,7 @@ Pune, Maharashtra, India.<br />
 6. [Counting Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P48_CountingSort.py)
 7. [Bucket Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P52_BucketSort.py)
 8. [Shell Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P53_ShellSort.py)
+9. [Heap Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P66_HeapSort.py)
 
 ## Searching Algorithms
 
