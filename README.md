@@ -126,3 +126,5 @@ Rearranging of words or phrase to produce a new word or phrase, using all the or
 Check if the given number is a perfect number
 * [Pascal  Triangle](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P59_PascalTriangle.py)
 Implementation of Pascal Triangle
+* [Sieve Of Erathosthenes](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P67_SieveOfEratosthenes.py)
+One of the efficient algorithms to find all the prime numbers upto n, where n can be upto 10 million
