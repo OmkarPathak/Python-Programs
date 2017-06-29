@@ -65,6 +65,11 @@ Pune, Maharashtra, India.<br />
 
 ## Graphs
 1. [Graph](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P63_Graph.py)
+2. [Breadth First Search]
+3. [Depth First Search]
+4. [Detect Cycle in Directed Graph]
+5. [Detect Cycle in Undirected Graph]
+6. [Topological Sort]
 
 ## Scripts
 
