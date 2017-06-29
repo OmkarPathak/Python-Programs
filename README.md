@@ -65,11 +65,11 @@ Pune, Maharashtra, India.<br />
 
 ## Graphs
 1. [Graph](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P63_Graph.py)
-2. [Breadth First Search]
-3. [Depth First Search]
-4. [Detect Cycle in Directed Graph]
-5. [Detect Cycle in Undirected Graph]
-6. [Topological Sort]
+2. [Breadth First Search](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Graph/P01_BreadthFirstSearch.py)
+3. [Depth First Search](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Graph/P02_DepthFirstSearch.py)
+4. [Detect Cycle in Directed Graph](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Graph/P03_DetectCycleInDirectedGraph.py)
+5. [Detect Cycle in Undirected Graph](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Graph/P04_DetectCycleInUndirectedGraph.py)
+6. [Topological Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P68_TopologicalSort.py)
 
 ## Scripts
 
