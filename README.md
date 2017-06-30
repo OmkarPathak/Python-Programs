@@ -133,3 +133,5 @@ Check if the given number is a perfect number
 Implementation of Pascal Triangle
 * [Sieve Of Erathosthenes](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P67_SieveOfEratosthenes.py)
 One of the efficient algorithms to find all the prime numbers upto n, where n can be upto 10 million
+* [Reverse the words](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P69_ReverseWords.py)
+Reversing the order of WORDS in a sentence
