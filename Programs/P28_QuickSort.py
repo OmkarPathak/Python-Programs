@@ -9,6 +9,7 @@
 #  done.
 
 #  Best = Average = O(nlog(n)); Worst = O(n^2
+import time
 
 def quickSort(myList, start, end):
     if start < end:
@@ -27,10 +28,8 @@ def partition(myList, start, end):
     while not done:
         while left <= right and myList[left] <= pivot:
             left = left + 1
-            print('Now left is:',left)
         while myList[right] >= pivot and right >=left:
             right = right -1
-            print('now righht is:',right)
         if right < left:
             done= True
         else:
@@ -44,6 +43,23 @@ def partition(myList, start, end):
     myList[right]=temp
     return right
 
+# A more efficient solution
+def quicksortBetter(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksortBetter(left) + middle + quicksortBetter(right)
+
 if __name__ == '__main__':
     List = [3, 4, 2, 6, 5, 7, 1, 9]
+    start = time.time()
     print('Sorted List:',quickSort(List, 0, len(List) - 1))
+    stop = time.time()
+    print('Time Required:', (stop - start))
+    start = time.time()
+    print('Sorted List:', quicksortBetter(List))
+    stop = time.time()
+    print('Time Required:', (stop - start))
