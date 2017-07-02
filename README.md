@@ -135,3 +135,5 @@ Implementation of Pascal Triangle
 One of the efficient algorithms to find all the prime numbers upto n, where n can be upto 10 million
 * [Reverse the words](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P69_ReverseWords.py)
 Reversing the order of WORDS in a sentence
+* [Python Progress bar](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P70_SimppleProgressBar.py)
+* [Python unittest Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P71_PythonUnittest.py)
