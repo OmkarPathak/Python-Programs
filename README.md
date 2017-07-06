@@ -145,3 +145,5 @@ Reversing the order of WORDS in a sentence
 A simple progress bar helpful for showing the progress of a download
 * [Python unittest Module](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P71_PythonUnittest.py)
 A Python module for writing test cases
+* [Python Lambda Function](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P72_PythonLambda.py)
+An example of Python Lambda function
