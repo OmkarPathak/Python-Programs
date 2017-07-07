@@ -148,3 +148,5 @@ A simple progress bar helpful for showing the progress of a download
 A Python module for writing test cases
 * [Python Lambda Function](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P72_PythonLambda.py)
 An example of Python Lambda function
+* [Python Encryption example using RSA Algorithm](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P73_SimplePythonEncryption.py)
+Encryption/ Decryption using RSA Algorithm
