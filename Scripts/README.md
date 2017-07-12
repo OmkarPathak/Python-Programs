@@ -17,6 +17,6 @@
 
 ![Birthday Reminder](Results/BirthdayReminder.png "Birthdays")
 
-* [Birthday Reminder](P09_ReminderApplication.py) - How you get the notifications (`reminder.data`)<br />
+* [Birthday Reminder](P09_ReminderApplication.py) - How you get the notifications<br />
 
-![Birthday Reminder](Results/BirthdayReminderResults.png "Birthdays")
+![Birthday Reminder](Results/BirthdayReminderResult.png "Birthdays")
