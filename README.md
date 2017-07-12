@@ -70,6 +70,7 @@ Pune, Maharashtra, India.<br />
 4. [Detect Cycle in Directed Graph](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Graph/P03_DetectCycleInDirectedGraph.py)
 5. [Detect Cycle in Undirected Graph](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Graph/P04_DetectCycleInUndirectedGraph.py)
 6. [Topological Sort](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P68_TopologicalSort.py)
+7. [Prim's Algorithm](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Graph/P06_Prim's-Algorithm.py)
 
 ## Scripts
 
@@ -83,6 +84,7 @@ Pune, Maharashtra, India.<br />
 8. [Counting Number of Words](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P08_CountNumberOfWords.py)
 9. [Birthday Reminder](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P09_ReminderApplication.py)
 10. [Script to download tutorial from tutorials point](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P10_SciptToDownloadPDF.py)
+11. [Script to check email in your terminal](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P11_CheckEmail.py)
 
 ## Python Concepts
 
