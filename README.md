@@ -95,6 +95,7 @@ Pune, Maharashtra, India.<br />
 5. [Decorators](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P46_Decorators.py)
 6. [More on Decorators](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P47_MoreOnDecorators.py)
 7. [List Comprehensions](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P50_ListComprehensions.py)
+8. [Python Generators](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P74_PythonGenerators.py)
 
 ## Numpy
 1. [Introduction and Basics of Numpy](https://github.com/OmkarPathak/Python-Programs/blob/master/Numpy/P01_Introduction.py)
