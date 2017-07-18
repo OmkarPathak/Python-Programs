@@ -39,7 +39,7 @@ Pune, Maharashtra, India.<br />
 ## Simple Games in Python
 
 1. [Number Guessing Game](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P21_GuessTheNumber.py)
-2. [Hangman](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P37_Hangman.py)
+2. [Hangman](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P37_HangmanGame.py)
 3. [Rock Paper Scissor](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P49_RockPaperScissors.py)
 4. [Tic Tac Toe](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P75_TicTacToe.py)
 
