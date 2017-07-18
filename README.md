@@ -154,3 +154,5 @@ A Python module for writing test cases
 An example of Python Lambda function
 * [Python Encryption example using RSA Algorithm](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P73_SimplePythonEncryption.py)
 Encryption/ Decryption using RSA Algorithm
+* [Python ftplib](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P76_PythonFTP.py)
+A simple Python FTP file transfer example
