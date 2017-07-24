@@ -35,6 +35,7 @@ Pune, Maharashtra, India.<br />
     * [More on Stacks..](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Stack)
 5. [Queue](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P39_Queue.py)
     * [More on Queues..](https://github.com/OmkarPathak/Data-Structures-using-Python/tree/master/Queue)
+6. [Hash Table](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P78_HashTable.py)
 
 ## Simple Games in Python
 
