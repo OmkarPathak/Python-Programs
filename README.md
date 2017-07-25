@@ -105,6 +105,8 @@ Pune, Maharashtra, India.<br />
 3. [Numpy Array Attributes](https://github.com/OmkarPathak/Python-Programs/blob/master/Numpy/P03_NumpyAttributes.py)
 4. [Generate Numpy array from various numerical ranges](https://github.com/OmkarPathak/Python-Programs/blob/master/Numpy/P04_ArrayFromNumericalRange.py)
 5. [Numpy Array Manipulation operations](https://github.com/OmkarPathak/Python-Programs/blob/master/Numpy/P05_NumpyArrayManipulation.py)
+6. [Numpy String Functions](https://github.com/OmkarPathak/Python-Programs/blob/master/Numpy/P06_NumpyStringFunctions.py)
+
 
 ## Mini Projects
 * [Address Book](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P61_AddressBook.py)
