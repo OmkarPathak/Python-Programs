@@ -111,6 +111,7 @@ Pune, Maharashtra, India.<br />
 ## Mini Projects
 * [Address Book](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P61_AddressBook.py)
 With Add, Modify, Search.
+* [Simple Python Keylogger](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P79_SimplePythonKeylogger.py)
 
 ## Random Python Programs
 
