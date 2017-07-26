@@ -1,5 +1,9 @@
 # Author: OMKAR PATHAK
 
+# This file requires two modules to be installed:
+# 1. pyxhook.py: file is provided in the folder itself
+# 2. Xlib: sudo pip3 install python3-Xlib
+
 import pyxhook
 import time
 
