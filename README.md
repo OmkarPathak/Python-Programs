@@ -107,6 +107,7 @@ Pune, Maharashtra, India.<br />
 5. [Numpy Array Manipulation operations](https://github.com/OmkarPathak/Python-Programs/blob/master/Numpy/P05_NumpyArrayManipulation.py)
 6. [Numpy String Functions](https://github.com/OmkarPathak/Python-Programs/blob/master/Numpy/P06_NumpyStringFunctions.py)
 7. [Numpy Mathematical Functions](https://github.com/OmkarPathak/Python-Programs/blob/master/Numpy/P07_NumpyMathematicalFunctions.py)
+8. [Numpy Arithmetical Operations](https://github.com/OmkarPathak/Python-Programs/blob/master/Numpy/P08_NumpyArithmeticOperations.py)
 
 ## Mini Projects
 * [Address Book](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P61_AddressBook.py)
