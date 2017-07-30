@@ -8,6 +8,15 @@ def factorial(number):
     else:
         return number * factorial(number - 1)
 
+def factorial_without_recursion(number):
+    fact = 1
+    while(number > 0):
+        fact = fact * number
+        number = number - 1
+    print('Factorial of', number,'is: ')
+    print(fact)
+
 if __name__ == '__main__':
     userInput = int(input('Enter the number to find its factorial: '))
-    print('Factorial of',userInput,'is:',factorial(userInput))
+    print('Factorial of', userInput, 'is:', factorial(userInput))
+    factorial_without_recursion(userInput)
