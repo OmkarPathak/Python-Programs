@@ -8,27 +8,12 @@ def fibonacci(number):
     else:
         return (fibonacci(number - 1) + fibonacci(number - 2))
 
-def fibonacciFor(number):
-    '''This function calculates the fibonacci series for n-th term using loop'''
-    # first two terms
-    n1 = 0
-    n2 = 1
-    count = 2
-    if number <= 0:
-        print("Please enter a positive integer")
-    elif number == 1:
-        print("Fibonacci sequence upto ",number,":")
-        print(n1)
-    else:
-        print("Fibonacci sequence upto ",number,":")
-        print(n1,n2,end=' ')
-        while count <= number:
-            nth = n1 + n2
-            print(nth,end=' ')
-            # update values
-            n1 = n2
-            n2 = nth
-            count += 1
+def fibonacci_without_recursion(number):
+    if number == 0: return 0
+    fibonacci0, fibonacci1 = 0, 1
+    for i in range(2, number + 1):
+        fibonacci1, fibonacci0 = fibonacci0 + fibonacci1, fibonacci1
+    return fibonacci1
 
 if __name__ == '__main__':
     userInput = int(input('Enter the number upto which you wish to calculate fibonnaci series: '))
@@ -36,4 +21,4 @@ if __name__ == '__main__':
         print(fibonacci(i),end=' ')
 
     print("\nUsing LOOP:")
-    fibonacciFor(userInput)
+    print(fibonacci_without_recursion(userInput))
