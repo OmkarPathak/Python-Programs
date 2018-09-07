@@ -90,6 +90,8 @@ Pune, Maharashtra, India.<br />
 9. [Birthday Reminder](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P09_ReminderApplication.py)
 10. [Script to download tutorial from tutorials point](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P10_SciptToDownloadPDF.py)
 11. [Script to check email in your terminal](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P11_CheckEmail.py)
+12. [Script to find devices connected to Network](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P12_ScriptToFindDevicesConnectedInNetwork.py)
+13. [Script to create metadata for a file](https://github.com/OmkarPathak/Python-Programs/blob/master/Scripts/P13_Python_Create_File_With_Metadata.py)
 
 ## Python Concepts
 
