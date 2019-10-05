@@ -13,6 +13,14 @@ class Employee(object):
     def __str__(self):
         return 'Full Name: ' + self.firstname + ' ' + self.lastname
 
+    # Implements behaviour for built in type comparison to int
+    def __int__(self):
+        return self.salary
+
+    # For overloading the (==)
+    def __eq__(self,other):
+       return self.salary==other.salary   
+
     # For overloading the (+)
     def __add__(self, other):
         return self.salary + other.salary
@@ -28,3 +36,6 @@ if __name__ == '__main__':
     print(Jagdish)              # Full Name: Jagdish Pathak
     print(Omkar + Jagdish)      # 3000 (This output because of __add__ method overloading)
     print(Omkar * Jagdish)      # 2000000 (__mul__)
+    print(int(Omkar))           # 1000 (__int__)
+    print(int(Jagdish))         # 2000 (__int__)
+    print(Omkar==Jagdish)
