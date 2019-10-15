@@ -1,0 +1,8 @@
+x=int(input("Enter the first number"))
+y=int(input("Enter the second number"))
+if x>y:
+print("The largest number is",x)
+elseif y>x:
+print("The largest number is",y)
+else:
+print("Both the numbers are equal")
