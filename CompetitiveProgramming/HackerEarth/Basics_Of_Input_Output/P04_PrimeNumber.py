@@ -15,7 +15,9 @@
 import math
 
 userInput = int(input())
-for i in range(2, userInput + 1):
+if userInput>2
+    print("2",end = ' ')
+for i in range(3, userInput + 2):
     check = 0
     for j in range(2, int(math.sqrt(i))+ 1):
         if i % j == 0:
