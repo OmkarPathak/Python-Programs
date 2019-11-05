@@ -60,11 +60,11 @@ for _ in range(int(input())):
     flag = 0
     size = 0
     for i in array:
-    currentGCD = gcd(i, currentGCD)
-    if currentGCD == 1:
-        flag = 1
-        print(count)
-        break
+        currentGCD = gcd(i, currentGCD)
+        if currentGCD == 1:
+            flag = 1
+            print(count)
+            break
 
     if flag == 0:
-    print(-1)
+        print(-1)

@@ -15,7 +15,7 @@
 import math
 
 userInput = int(input())
-if userInput>2
+if userInput > 2:
     print("2",end = ' ')
 for i in range(3, userInput + 2):
     check = 0

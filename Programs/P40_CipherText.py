@@ -12,8 +12,6 @@ def encrypt(message, key):
             num = LETTERS.find(chars)
             num += key
             encrypted +=  LETTERS[num]
-        else:
-            encrypted += symbol
 
     return encrypted
 
@@ -25,8 +23,6 @@ def decrypt(message, key):
             num = LETTERS.find(chars)
             num -= key
             decrypted +=  LETTERS[num]
-        else:
-            decrypted += symbol
 
     return decrypted
 

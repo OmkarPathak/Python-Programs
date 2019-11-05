@@ -24,7 +24,7 @@ def pangram(sentence):
 # A short version of above function:
 def pangram2(sentence):
     alphabet = list(map(chr, range(97, 123)))
-    formattedString = ''.join(c for c in string if c.isalpha()).lower()
+    formattedString = ''.join(c for c in sentence if c.isalpha()).lower()
     return set(alphabet) == set(formattedString)
 
 if __name__ == '__main__':

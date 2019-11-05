@@ -27,7 +27,7 @@ check = int(input())
 array = input().split()
 array = [int(i) for i in array]
 array.insert(0,0)
-count = 
+count = 0
 for i in range(0, check + 1):
     pos = array[i] + i
     if pos > check:
