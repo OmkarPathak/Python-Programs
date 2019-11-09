@@ -113,7 +113,7 @@ class Tree(object):
 
     def pprint(self, head_node=0, _pre="", _last=True, term=False):
 
-        head_node = self.root if head_node is 0 else head_node
+        head_node = self.root if head_node == 0 else head_node
 
         data = "*" if head_node is None else head_node.data
 
