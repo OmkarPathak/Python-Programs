@@ -72,8 +72,12 @@ class Node(object):
             print(str(self.data), end = ' ')
 
 class Tree(object):
-    def __init__(self):
+    def __init__(self, initial_data = []):
         self.root = None
+
+        # If provided, add initial data
+        for data in initial_data:
+            self.insert(data)
 
     def insert(self, data):
         if self.root:
@@ -106,6 +110,22 @@ class Tree(object):
             print('Postorder: ')
             self.root.postorder()
 
+
+    def pprint(self, head_node=0, _pre="", _last=True, term=False):
+
+        head_node = self.root if head_node == 0 else head_node
+
+        data = "*" if head_node is None else head_node.data
+
+        print(_pre, "`- " if _last else "|- ", data, sep="")
+        _pre += "   " if _last else "|  "
+
+        if term: return
+
+        for i, child in enumerate([head_node.leftChild, head_node.rightChild]):
+            self.pprint(child,  _pre, bool(i) ,term=not(bool(child)))
+
+
 if __name__ == '__main__':
     tree = Tree()
     tree.insert(10)
@@ -117,6 +137,7 @@ if __name__ == '__main__':
     tree.insert(7)
     tree.insert(15)
     tree.insert(13)
+    tree.pprint()
     print(tree.find(1))
     print(tree.find(12))
     tree.preorder()
