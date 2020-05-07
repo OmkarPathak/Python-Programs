@@ -166,6 +166,8 @@ An example of Python Lambda function
 Encryption/ Decryption using RSA Algorithm
 * [Python ftplib](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P76_PythonFTP.py)
 A simple Python FTP file transfer example
+* [Python Django Project (beginner)](https://github.com/modernwarfareuplink/fyleBanksApi)
+A simple Django Project with two endpoints to show IFSC and bank details
 
 # Donation
 
