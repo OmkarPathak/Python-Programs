@@ -1,5 +1,6 @@
 #Author: OMKAR PATHAK
 #This program finds the favtorial of the specified numbers
+#For example, factorial of 5 = 5*4*3*2*1 = 120
 
 def factorial(number):
     '''This function finds the factorial of the number passed as argument'''
