@@ -1,7 +1,7 @@
 import random
 
-LOWERCASE_CHARS = tuple(map(chr, xrange(ord('a'), ord('z')+1)))
-UPPERCASE_CHARS = tuple(map(chr, xrange(ord('A'), ord('Z')+1)))
+LOWERCASE_CHARS = tuple(map(chr, range(ord('a'), ord('z')+1)))
+UPPERCASE_CHARS = tuple(map(chr, range(ord('A'), ord('Z')+1)))
 DIGITS = tuple(map(str, range(0, 10)))
 SPECIALS = ('!', '@', '#', '$', '%', '^', '&', '*')
 
@@ -54,4 +54,4 @@ def _is_repeating(password):
     return False
 
 if __name__ == '__main__':
-    print generate_random_password(random.randint(6, 30), SEQUENCE)
+    print (generate_random_password(random.randint(6, 30), SEQUENCE))
