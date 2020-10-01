@@ -1,4 +1,4 @@
-# Python-Programs
+# Amazing Python-Programs
 [![GitHub stars](https://img.shields.io/github/stars/OmkarPathak/Python-Programs.svg)](https://github.com/OmkarPathak/Python-Programs/stargazers)
 ![Python](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
 
@@ -47,7 +47,7 @@ Pune, Maharashtra, India.<br />
 3. [Rock Paper Scissor](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P49_RockPaperScissors.py)
 4. [Tic Tac Toe](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P75_TicTacToe.py)
 
-## OOP
+## OOP( Object Oriented Programming )
 
 1. [Class Definition](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P01_ClassDefinition.py)
 2. [Instance Methods](https://github.com/OmkarPathak/Python-Programs/blob/master/OOP/P02_InstanceMethods.py)
