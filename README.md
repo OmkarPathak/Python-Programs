@@ -46,7 +46,7 @@ Pune, Maharashtra, India.<br />
 2. [Hangman](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P37_HangmanGame.py)
 3. [Rock Paper Scissor](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P49_RockPaperScissors.py)
 4. [Tic Tac Toe](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P75_TicTacToe.py)
-5. [Credit card validation checker](P80_checking_validation_of_credit_card.py)
+5. Credit card validation checker P80_checking_validation_of_credit_card.py
 
 ## OOP
 
