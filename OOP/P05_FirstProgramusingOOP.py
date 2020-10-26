@@ -11,7 +11,7 @@ class MaxSizeList(object):
             String = str(String)
             self.myList.append(String)
         except ValueError:
-            print('You can only push strings!')
+            print('You can only push strings!. No integers are allowed here :)')
 
     def getList(self):
         print(self.myList[-self.value:])
