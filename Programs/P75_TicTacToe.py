@@ -36,6 +36,8 @@ while not winner and iterations < 9:
 
     try:
         playerInput = int(input())
+        while playerInput not in range(9):
+          playerInput = int(input("Choose a postion from 0-8: "))
     except:
         print('Please enter a valid number from the board')
         continue
