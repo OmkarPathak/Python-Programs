@@ -1,6 +1,7 @@
 #Author: OMKAR PATHAK
 #This program is an example for sequential search
 
+#custom function named sequentialSearch with parameters target and list finding target element in list and return either true or false i.e. 1 or -1
 def sequentialSearch(target, List):
     '''This function returns the position of the target if found else returns -1'''
     position = 0
