@@ -24,8 +24,8 @@ Pune, Maharashtra, India.<br />
 ## Searching Algorithms
 
 1. [Sequential Search](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P22_SequentialSearch.py)
-2. [Binary Search](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P23_BinarySearch.py)
-3. [N-ary Search](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P35_NarySearch.py)
+
+2. [N-ary Search](https://github.com/OmkarPathak/Python-Programs/blob/master/Programs/P35_NarySearch.py)
 
 ## Data Structures
 
