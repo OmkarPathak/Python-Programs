@@ -5,47 +5,31 @@
 # Scissors beats paper
 # Paper beats rock
 
-import random, time
+import random
 
-def rockPaperScissors():
+def rockPaperScissors() -> None:
     # R => Rock, P => Paper, S => Scissors
-    computerOptions = ['R', 'P', 'S']
-    computer = computerOptions[random.randint(0, 2)]
+    COMPUTEROPTIONS = ('R', 'P', 'S')
+    COMPUTER = random.choice(COMPUTEROPTIONS)
 
-    forOptions = {'R': 'Rock', 'P': 'Paper', 'S':'Scissors'}
+    OPTIONS = {'R': 'Rock', 'P': 'Paper', 'S':'Scissors'}
 
-    try:
-        player = input('Enter your choice [R]ock [P]aper [S]cissors: ')
-        player = player.upper()
-        if player in computerOptions:
-            if player == computer:
-                print('Player:',forOptions.get(player),'Computer:',forOptions.get(computer))
-                print('You both tied!')
-            elif player == 'R':
-                if computer == 'P':
-                    print('Player:',forOptions.get(player),'Computer:',forOptions.get(computer))
-                    print('Sorry, you lose! Try again.')
-                else:
-                    print('Player:',forOptions.get(player),'Computer:',forOptions.get(computer))
-                    print('Congrats, you win!')
-            elif player == 'S':
-                if computer == 'R':
-                    print('Player:',forOptions.get(player),'Computer:',forOptions.get(computer))
-                    print('Sorry, you lose! Try again.')
-                else:
-                    print('Player:',forOptions.get(player),'Computer:',forOptions.get(computer))
-                    print('Congrats, you win!')
-            elif player == 'P':
-                if computer == 'S':
-                    print('Player:',forOptions.get(player),'Computer:',forOptions.get(computer))
-                    print('Sorry, you lose! Try again.')
-                else:
-                    print('Player:',forOptions.get(player),'Computer:',forOptions.get(computer))
-                    print('Congrats, you win!')
-            else:
-                print('Please enter only R, P or S as your choice')
-    except:
-        exit()
+    player = input('Enter your choice [R]ock [P]aper [S]cissors: ').upper()
+
+    if player not in COMPUTEROPTIONS:
+        print('Please enter only R, P or S as your choice')
+        return
+
+    STATEMENT = ('You Won!', 'You Lost!', 'You both tied!')
+    
+    result = {
+        'R': STATEMENT[0 if COMPUTER == 'S' else 1],
+        'S': STATEMENT[0 if COMPUTER == 'P' else 1],
+        'P': STATEMENT[0 if COMPUTER == 'R' else 1],
+    }
+
+    print('Player:',OPTIONS.get(player),'COMPUTER:',OPTIONS.get(COMPUTER))
+    print(STATEMENT[2] if player == COMPUTER else result.get(player))
 
 if __name__ == '__main__':
     rockPaperScissors()
