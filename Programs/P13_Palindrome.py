@@ -3,12 +3,8 @@
 
 def palindrome(string):
     '''This function checks the string for palindrome'''
-    revString = string[::-1]
-    if string == revString:
-        print('String is Palindrome')
-    else:
-        print('String is not Palindrome')
+    print(f"{string} is {'' if string == string[::-1] else 'not '}palindrome.")
 
 if __name__ == '__main__':
-    userInput = str(input('Enter a string to check for Palindrome: '))
+    userInput = input('Enter a string to check for Palindrome: ')
     palindrome(userInput)
