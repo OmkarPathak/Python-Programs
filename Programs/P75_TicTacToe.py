@@ -2,12 +2,8 @@
 
 # A simple example of tic tac toe game
 
-# For storing user choices
-choices = []
-
-# For initializing the board with numbers
-for i in range(0, 9):
-    choices.append(str(i))
+# For stroing user choices initialized with board numbers.
+choices = [str(i) for i in range(9)]
 
 firstPlayer = True
 winner = False
@@ -29,7 +25,7 @@ while not winner and iterations < 9:
 
     iterations += 1
 
-    if firstPlayer == True:
+    if firstPlayer:
         print('Player 1: ', end = '')
     else:
         print('Player 2: ', end = '')
@@ -41,7 +37,7 @@ while not winner and iterations < 9:
         continue
 
     # Check if userInput already has 'X' or 'O'
-    if choices[playerInput] == 'X' or choices[playerInput] == 'O':
+    if choices[playerInput] in ('X', 'O'):
         print('Illegal move, try again!')
         continue
 
@@ -55,17 +51,17 @@ while not winner and iterations < 9:
     # Winning conditions
     for index in range(0, 3):
         # For [0,1,2], [3,4,5], [6,7,8]
-        if (choices[index * 3] == choices[((index * 3) + 1)] and choices[index * 3] == choices[((index * 3) + 2)]):
+        if (choices[index * 3] == choices[((index * 3) + 1)] == choices[((index * 3) + 2)]):
             winner = True
             printBoard()
 
         # For [0,3,6], [1,4,7], [2,5,8]
-        if(choices[index] == choices[index + 3] and choices[index + 3] == choices[index + 6]):
+        if(choices[index] == choices[index + 3] == choices[index + 6]):
             winner = True
             printBoard()
 
-    if((choices[0] == choices[4] and choices[4] == choices[8]) or
-      (choices[2] == choices[4] and choices[4] == choices[6])):
+    if((choices[0] == choices[4] == choices[8]) or
+      (choices[2] == choices[4] == choices[6])):
         winner = True
         printBoard()
 
