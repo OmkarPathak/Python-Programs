@@ -19,11 +19,4 @@
 # 1
 
 string = input()
-count = 0
-for i in string:
-    if i != ' ':
-        pass
-    else:
-        count += 1
-
-print(count)
+print(string.count(' '))
