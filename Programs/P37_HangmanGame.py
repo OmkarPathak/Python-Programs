@@ -22,12 +22,12 @@ if __name__ == '__main__':
     correct = 0
 
     try:
-        while (chances != 0):
+        while chances:
             print()
             chances -= 1
 
             try:
-                guess = str(input('Enter a letter to guess: '))
+                guess = input('Enter a letter to guess: ')
             except:
                 print('Enter only a letter!')
                 continue
@@ -57,20 +57,17 @@ if __name__ == '__main__':
                     print('_', end = ' ')
 
             # If user has guessed all the letters
-            if (Counter(letterGuessed) == Counter(word)):
-                print()
-                print('Congratulations, You won!')
+            if Counter(letterGuessed) == Counter(word):
+                print('\nCongratulations, You won!')
                 break
 
         # If user has used all of his chances
-        if chances == 0:
-            print()
-            print('You lost! Try again..')
-            print('The word was {}'.format(word))
+        if not chances:
+            print('\nYou lost! Try again..')
+            print(f'The word was {word}')
 
     except KeyboardInterrupt:
-        print()
-        print('Bye! Try again.')
+        print('\nBye! Try Again.')
         exit()
 
         # print(letterGuessed)

@@ -3,17 +3,15 @@
 
 def LCM(number1, number2):
     '''This function calculates LCM of two numbers inputed by the user'''
-    maximum = max(number1, number2)
-    i = maximum
+    max = max(number1, number2)
     while True:
-        if (i % number1 == 0  and i % number2 == 0):
-            lcm = i
+        if (not max % number1 and not max % number2):
             break
         i += maximum
 
-    return lcm
+    return i
 
 if __name__ == '__main__':
     userInput1 = int(input('Enter first number: '))
     userInput2 = int(input('Enter second number: '))
-    print('LCM of {} and {} is {}'.format( userInput1, userInput2, LCM(userInput1, userInput2)))
+    print('LCM of {userInput1} and {userInput2} is {LCM(userInput1, userInput2)})

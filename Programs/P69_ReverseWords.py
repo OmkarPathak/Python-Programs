@@ -2,10 +2,7 @@
 
 # Python program to reverse the words
 
-userInput = input()
-userInput = userInput.split()
-
-print(' '.join(userInput[::-1]))
+print(input()[::-1])
 
 # OUTPUT:
 # Computer Science
