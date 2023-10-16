@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import nltk
+'''import nltk
 from nltk.chat.util import Chat, reflections
 
 reflections = {
@@ -138,8 +138,40 @@ pairs = [
 def chat():
     print("Hi! I am Y2K..")
     chat = Chat(pairs, reflections)
-    chat.converse()
 
 #initiate the conversation
 if __name__ == "__main__":
+    chat()
+'''
+
+import nltk
+from nltk.chat.util import Chat, reflections
+
+pairs = [
+    [
+        r"my name is (.*)",
+        ["Hello %1, how are you today?",]
+    ],
+    [
+        r"hi|hey|hello",
+        ["Hello", "Hey there",]
+    ],
+    [
+        r"what is your name ?|your name|name please",
+        ["I am Y2K. You can call me a chatbot!",]
+    ],
+    [
+        r"how are you ?|how you doing|what about you|how about you ?",
+        ["I'm doing well. How can I assist you?",]
+    ],
+    # Add more patterns and responses here
+]
+
+def chat():
+    print("Hi! I am Y2K..")
+    chat = Chat(pairs, reflections)
+    chat.converse()
+
+# Initiate the conversation
+if _name_ == "_main_":
     chat()
