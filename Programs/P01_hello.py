@@ -7,7 +7,9 @@ def justPrint(text):
     a=10
     b=20
     c=a+b
-    print(c)
+    d=b-a
+    print(c,d)
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
+    justPrint('Welcome to Python Programming')
