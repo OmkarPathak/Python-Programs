@@ -8,7 +8,8 @@ def justPrint(text):
     b=20
     c=a+b
     d=b-a
-    print(c,d)
+    e=c+d
+    print(c,d,e)
 
 if __name__ == '__main__':
     justPrint('Hello Sindhuja')
