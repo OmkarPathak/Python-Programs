@@ -1,12 +1,20 @@
-# Author: OMKAR PATHAK
+# Reverse Words (Annotated Version)
 
-# Python program to reverse the words
+def reverse_words(text):
+    # ❌ VIOLATION: Original directly used input() (not reusable)
+    words = text.split()
 
-userInput = input()
-userInput = userInput.split()
+    # ❌ VIOLATION: No validation for empty string
+    if not words:
+        return ""
 
-print(' '.join(userInput[::-1]))
+    return ' '.join(words[::-1])
 
-# OUTPUT:
-# Computer Science
-# Science Computer
+
+def main():
+    user_input = input("Enter sentence: ")
+    print(reverse_words(user_input))
+
+
+if __name__ == "__main__":
+    main()
