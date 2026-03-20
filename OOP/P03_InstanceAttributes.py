@@ -1,16 +1,19 @@
-#Author: OMKAR PATHAK
-#In this example we will be seeing how instance Attributes are used
-#Instance attributes are accessed by: object.attribute
-#Attributes are looked First in the instance and THEN in the class
+# Author: OMKAR PATHAK
+# Demonstration of Instance Attributes
 
 import random
-class Vehicle():
-    #Class Methods/ Attributes
-    def type(self):
-        #NOTE: This is not a class attribute as the variable is binded to self. Hence it becomes
-        #instance attribute
-        self.randomValue = random.randint(1,10) #Setting the instance attribute
 
+class Vehicle:
+
+    def type(self):
+        # Creating instance attribute
+        self.randomValue = random.randint(1, 10)
+
+# Creating object
 car = Vehicle()
-car.type()              #Calling the class Method
-print(car.randomValue)  #Calling the instance attribute
+
+# Calling method
+car.type()
+
+# Accessing instance attribute
+print("Random Value:", car.randomValue)

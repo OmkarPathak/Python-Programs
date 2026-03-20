@@ -1,18 +1,29 @@
-# This is the program for creating a simple progress bar. You may need this in many of your projects.
-# You can install a module for progress bar by 'pip3 install progressbar2'
+# Progress Bar (Annotated Version)
 
-import sys, time
+import sys
+import time
 
-def progressBar(count, total, suffix=''):
-    barLength = 60
-    filledLength = int(round(barLength * count / float(total)))
 
-    percent = round(100.0 * count / float(total), 1)
-    bar = '=' * filledLength + '-' * (barLength - filledLength)
+def progress_bar(count, total, suffix=''):
+    # ❌ VIOLATION: No zero division handling
+    if total == 0:
+        return
 
-    sys.stdout.write('[%s] %s%s ...%s\r' % (bar, percent, '%', suffix))
+    bar_length = 40
+    filled_length = int(bar_length * count / total)
+
+    percent = round(100.0 * count / total, 1)
+    bar = '=' * filled_length + '-' * (bar_length - filled_length)
+
+    sys.stdout.write(f'\r[{bar}] {percent}% {suffix}')
     sys.stdout.flush()
 
-for i in range(10):
-	time.sleep(1)
-	progressBar(i, 10)
+
+def main():
+    for i in range(11):
+        time.sleep(0.2)
+        progress_bar(i, 10)
+
+
+if __name__ == "__main__":
+    main()
