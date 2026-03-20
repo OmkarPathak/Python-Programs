@@ -1,46 +1,44 @@
-# Author: OMKAR PATHAK
-
-# For transfering files to your another/local computer, you will have to install a FTP
-# Daemon. Execute following for doing the same:
-# 1. sudo apt-get install vsftpd
-# 2. service vsftpd start
-# 3. sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
-# 4. sudo nano /etc/vsftpd.conf
-
-# Now change the following settings in that file:
-#
-# anonymous_enable=NO             # disable  anonymous login
-# local_enable=YES		# permit local logins
-# write_enable=YES		# enable FTP commands which change the filesystem
-# local_umask=022		        # value of umask for file creation for local users
-# dirmessage_enable=YES	        # enable showing of messages when users first enter a new directory
-# xferlog_enable=YES		# a log file will be maintained detailing uploads and downloads
-# connect_from_port_20=YES        # use port 20 (ftp-data) on the server machine for PORT style connections
-# xferlog_std_format=YES          # keep standard log file format
-# listen=NO   			# prevent vsftpd from running in standalone mode
-# listen_ipv6=YES		        # vsftpd will listen on an IPv6 socket instead of an IPv4 one
-# pam_service_name=vsftpd         # name of the PAM service vsftpd will use
-# userlist_enable=YES  	        # enable vsftpd to load a list of usernames
-# tcp_wrappers=YES  		# turn on tcp wrappers
+# Author: OMKAR PATHAK (Annotated Version)
 
 import ftplib
+import os
 
-def ftp_upload(ftpObj, pathToSend, pathToRecv, fileType='TXT'):
-    """
-    A function for uploading files to an FTP server
-    @param ftpObj: The file transfer protocol object
-    @param path: The path to the file to upload
-    """
-    with open(pathToSend, 'rb') as fobj:
-        ftpObj.storlines('STOR ' + pathToRecv, fobj)
 
-if __name__ == '__main__':
-    ftp = ftplib.FTP('127.0.0.1')
-    ftp.login('omkarpathak', '8149omkar')
-    print('Logged in..')
+def ftp_upload(ftp, local_path, remote_path):
+    # ❌ VIOLATION: Original used storlines for binary file
+    # ftpObj.storlines()
 
-    pathToSend = '/home/omkarpathak/Desktop/output.txt'
-    pathToRecv = '/home/omkarpathak/Documents/output.txt'
-    ftp_upload(ftp, pathToSend, pathToRecv)
+    # ✅ FIX
+    with open(local_path, 'rb') as f:
+        ftp.storbinary(f'STOR {remote_path}', f)
 
-    ftp.quit()
+
+def main():
+    # ❌ VIOLATION: Hardcoded credentials (SECURITY RISK)
+    # ftp.login('omkarpathak', '8149omkar')
+
+    # ✅ FIX: Use environment variables
+    host = os.getenv("FTP_HOST", "127.0.0.1")
+    user = os.getenv("FTP_USER")
+    password = os.getenv("FTP_PASS")
+
+    if not user or not password:
+        print("Set FTP_USER and FTP_PASS")
+        return
+
+    try:
+        ftp = ftplib.FTP(host)
+        ftp.login(user, password)
+
+        ftp_upload(ftp, "output.txt", "output.txt")
+
+    except Exception as e:
+        # ❌ VIOLATION: No error handling in original
+        print("Error:", e)
+
+    finally:
+        ftp.quit()
+
+
+if __name__ == "__main__":
+    main()
